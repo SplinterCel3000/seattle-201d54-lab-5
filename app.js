@@ -42,7 +42,7 @@ function multiply(a, b) { //eslint-disable-line
 }
 
  //Here is the test for multiply(); uncomment it to run it;
- testMultiply(5,9);
+ //testMultiply(5,9);
 
 // Once you get the test passing, do an a-c-p cycle and synchronize the code between GitHub and your laptop. Don't forget to create a new branch for your work on the next question!
 
@@ -59,11 +59,24 @@ Test this function by hand in the console to get it working, and when you think 
 
 // Write your code here
 function sumAndMultiply(a, b, c) { //eslint-disable-line
+var array3 = [];
+var sumAnswer3 = sum(a, b);
+var sumAnswer4 = sum(sumAnswer3[0], c);
+var sumAnswer5 = multiply(a, b);
+var sumAnswer6 = multiply(sumAnswer5[0], c);
+array3[0] = sumAnswer4[0];
+array3[1] = sumAnswer6[0];
+var result3 = `${a} and ${b} and ${c} sum to ${sumAnswer4[0]}.`;
+var result4 = `The product of ${a} and ${b} and ${c} is ${sumAnswer6[0]}.`;
+array3[2] = result3;
+array3[3] = result4;
+
+return array3;
 
 }
 
 // Here is the test for sumAndMultiply(); uncomment it to run it
-// testSumAndMultiply(4,7,5);
+ testSumAndMultiply(4,7,5);
 
 // Once you get the test passing, do an a-c-p cycle and synchronize the code between GitHub and your laptop. Don't forget to create a new branch for your work on the next question!
 
