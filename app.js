@@ -122,13 +122,13 @@ Test this function by hand in the console to get it working, and when you think 
 
 // Write your code here
 function multiplyArray(multArr) { //eslint-disable-line
-var sumArr3 = [];
-var mult = multiply(multArr[0], multArr[1]);
-var mult1 = multiply(mult[0], multArr[2]);
-mult1[0] = mult1[0];
-var result5 = `The numbers ${multArr[0]},${multArr[1]},${multArr[2]} have a product of ${mult1[0]}.`;
-mult1[1] = result5;
-return mult1;
+  var sumArr3 = [];
+  var mult = multiply(multArr[0], multArr[1]);
+  var mult1 = multiply(mult[0], multArr[2]);
+  mult1[0] = mult1[0];
+  var result5 = `The numbers ${multArr[0]},${multArr[1]},${multArr[2]} have a product of ${mult1[0]}.`;
+  mult1[1] = result5;
+  return mult1;
 }
 
 // Here is the test for multiplyArray(); uncomment it to run it
