@@ -10,16 +10,16 @@ Test this function by hand in the console to get it working, and when you think 
 // Write your code here
 function sum(a, b) { //eslint-disable-line
 // return an array where the first number is the sum, and the second number is a string
-var myArray = [];
-var sumAnswer = a +b;
-myArray[0] = sumAnswer
-var result = `The sum of ${a} and ${b} is ${sumAnswer}.`
-myArray[1] = result;
-return myArray;
+  var myArray = [];
+  var sumAnswer = a +b;
+  myArray[0] = sumAnswer;
+  var result = `The sum of ${a} and ${b} is ${sumAnswer}.`;
+  myArray[1] = result;
+  return myArray;
 }
 
 // Here is the test for sum(); uncomment it to run it
- testSum(4, 7);
+testSum(4, 7);
 
 // Once you get the test passing, do an a-c-p cycle and synchronize the code between GitHub and your laptop. Don't forget to create a new branch for your work on the next question!
 
@@ -33,11 +33,16 @@ Test this function by hand in the console to get it working, and when you think 
 
 // Write your code here
 function multiply(a, b) { //eslint-disable-line
-
+  var array2 = [];
+  var sumAnswer2 = a *b;
+  array2[0] =  sumAnswer2;
+  var result2 = `The product of ${a} and ${b} is ${sumAnswer2}.`;
+  array2[1] = result2;
+  return array2;
 }
 
-// Here is the test for multiply(); uncomment it to run it
-// testMultiply(5,9);
+ //Here is the test for multiply(); uncomment it to run it;
+ testMultiply(5,9);
 
 // Once you get the test passing, do an a-c-p cycle and synchronize the code between GitHub and your laptop. Don't forget to create a new branch for your work on the next question!
 
